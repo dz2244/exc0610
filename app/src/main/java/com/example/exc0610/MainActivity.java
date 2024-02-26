@@ -30,18 +30,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void knifeace(View view) {
-        if(!(swich.isChecked()) && !(tobtn.isChecked())){
+        if(!(swich.isChecked()) && !(tobtn.isChecked()))
             wp.setBackgroundColor(Color.BLACK);
-        }
-        if(!(swich.isChecked()) && (tobtn.isChecked())){
+
+        if(!(swich.isChecked()) && (tobtn.isChecked()))
             wp.setBackgroundColor(Color.BLUE);
-        }
-        if((swich.isChecked()) && !(tobtn.isChecked())){
+
+        if((swich.isChecked()) && !(tobtn.isChecked()))
             wp.setBackgroundColor(Color.RED);
-        }
-        if((swich.isChecked()) && (tobtn.isChecked())){
+
+        if((swich.isChecked()) && (tobtn.isChecked()))
             wp.setBackgroundColor(Color.GREEN);
-        }
+
 
     }
 }
