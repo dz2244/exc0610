@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <Switch
-        android:id="@+id/switch"
+        android:id="@+id/swich"
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:text="Switch"
@@ -24,9 +24,9 @@
         android:layout_height="100dp"
         android:text="ToggleButton"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/switch"
+        app:layout_constraintEnd_toEndOf="@+id/swich"
         app:layout_constraintHorizontal_bias="1"
-        app:layout_constraintStart_toStartOf="@+id/switch"
+        app:layout_constraintStart_toStartOf="@+id/swich"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.395" />
 
@@ -34,6 +34,7 @@
         android:id="@+id/btn"
         android:layout_width="100dp"
         android:layout_height="60dp"
+        android:onClick="knifeace"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/tobtn"
